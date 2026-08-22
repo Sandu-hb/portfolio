@@ -9,6 +9,7 @@ const socialLinks = [
 ];
 
 const footerLinks = [
+  { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
   { href: "#experience", label: "My Journey" },
   { href: "#tech-stack", label: "Tech Stack" },
@@ -29,7 +30,7 @@ export const Footer = () => {
             <a href="#" className="text-xl font-bold tracking-tight">
               SHb<span className="text-primary">.</span>
             </a>
-            <p className="text-sm text-muted-foreground mt-2">
+            <p className="text-sm text-muted-foreground mt-2 ">
               © {currentYear} Sanduni Bandara. All rights reserved.
             </p>
           </div>

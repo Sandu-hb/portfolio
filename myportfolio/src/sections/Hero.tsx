@@ -12,7 +12,7 @@ import { MediumIcon } from "@/components/MediumIcon";
 
 export const Hero = () => {
     return (
-        <section className="relative min-h-screen flex items-center overflow-hidden">
+        <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
             {/* Bg */}
             <div className="absolute inset-0">
                 <img
