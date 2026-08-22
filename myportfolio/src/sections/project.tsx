@@ -16,7 +16,7 @@ const projects = [
             "A decentralized parking marketplace that connects drivers with private parking spaces, making it easy to discover, reserve, and manage parking slots. The platform features blockchain-based payments, secure wallet authentication, and Google Maps integration for real-time parking slot discovery and turn-by-turn navigation, providing a seamless parking experience for users .",
 
         image: "/Projects/project2.jpg",
-        tags: ["Next.js", "Node.js", "PostgreSQL", "XRPL Blockchain", "Flutter", "Neon"],
+        tags: ["Next.js", "Node.js", "PostgreSQL", "Neon", "XRPL Blockchain", "Flutter"],
         link: "https://park-chain-web.vercel.app/login",
         github: "https://github.com/dhananjaya-hbc/park_chain_web_frontend",
     },
@@ -49,7 +49,7 @@ export const Projects = () => {
                 </div>
 
                 {/* Projects Grid */}
-                <div className="grid md:grid-cols-2 gap-8">
+                <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-10">
                     {projects.map((project, idx) => (
                         <div
                             key={idx}
