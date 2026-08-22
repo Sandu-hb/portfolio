@@ -61,7 +61,7 @@ export const Blogs = () => {
             <a
               key={idx}
               href={blog.link}
-              className="group glass p-8 rounded-3xl border border-primary/20 hover:border-primary/50 transition-all duration-300 flex flex-col justify-between hover:-translate-y-1 glow-border animate-fade-in"
+              className="group glass p-8 rounded-3xl border border-primary/20 hover:border-primary/50 transition-all duration-300 flex flex-col justify-between hover:-translate-y-1 animate-fade-in"
               style={{ animationDelay: `${(idx + 1) * 100}ms` }}
             >
               <div>
